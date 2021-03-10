@@ -1,13 +1,13 @@
 {
   "private": false,
   "name": "vue-input-autocomplete2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue Autocomplete Input Component",
   "author": "sgflores",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sgflores/vue-input-autocomplete.git"
+    "url": "git+https://github.com/MarToxAk/vue-input-autocomplete2.git"
   },
   "main": "dist/inputautocomplete.umd.js",
   "module": "dist/inputautocomplete.esm.js",
@@ -40,11 +40,16 @@
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-uglify-es": "0.0.1",
     "rollup-plugin-vue": "^4.7.2",
-    "vue": "^2.6.10",
+    "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.10"
   },
   "bugs": {
-    "url": "https://github.com/sgflores/vue-input-autocomplete/issues"
+    "url": "https://github.com/MarToxAk/vue-input-autocomplete2.git/issues"
   },
-  "homepage": "https://github.com/sgflores/vue-input-autocomplete#readme"
+  "homepage": "https://github.com/MarToxAk/vue-input-autocomplete2.git#readme",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "cache-loader": "^4.1.0",
+    "vue-loader": "^15.9.6"
+  }
 }
